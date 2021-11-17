@@ -77,7 +77,7 @@ Released   : 20100328
 				San Francisco, 2008. SIAM.</i>
 				</p>
 				<p>
-				The networks are based on data compiled by the popular websites
+				The networks are based on https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10 compiled by the popular websites
 				<a href="http://dblp.uni-trier.de/">DBLP - Digital Bibliography and Library Project</a>
 				and <a href="http://citeseer.ist.psu.edu">CiteSeer, Scientific Literature Digital Library</a>.
 				</p>
@@ -98,37 +98,37 @@ Released   : 20100328
                      <td align="right"><b><i>m</i></b></td><!-- Col 3 -->
                   </tr>
 					<tr>
-					<td><b><a href="data/coauthor/citationCiteseer.graph.bz2"> citationCiteseer.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/coauthor/citationCiteseer.graph.bz2"> citationCiteseer.graph </a></b></td>
 					<td align="right"><b><i> 268,495 </i></b> </td>
 					<td align="right"> <b><i>1,156,647 </i> </b> </td>
 					</tr>
 <!--
 					<tr>
-					<td><b><a href="data/coauthor/cnr2000.graph.bz2"> cnr2000.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/coauthor/cnr2000.graph.bz2"> cnr2000.graph </a></b></td>
 					<td align="right"><b><i> 325,557 </i></b> </td>
 					<td align="right"> <b><i>2,738,969 </i> </b> </td>
 					</tr>
 -->
 					<tr>
-					<td><b><a href="data/coauthor/coAuthorsCiteseer.graph.bz2"> coAuthorsCiteseer.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/coauthor/coAuthorsCiteseer.graph.bz2"> coAuthorsCiteseer.graph </a></b></td>
 					<td align="right"><b><i> 227,320 </i></b> </td>
 					<td align="right"> <b><i>814,134 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/coauthor/coAuthorsDBLP.graph.bz2"> coAuthorsDBLP.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/coauthor/coAuthorsDBLP.graph.bz2"> coAuthorsDBLP.graph </a></b></td>
 					<td align="right"><b><i> 299,067 </i></b> </td>
 					<td align="right"> <b><i>977,676 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/coauthor/coPapersCiteseer.graph.bz2"> coPapersCiteseer.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/coauthor/coPapersCiteseer.graph.bz2"> coPapersCiteseer.graph </a></b></td>
 					<td align="right"><b><i> 434,102 </i></b> </td>
 					<td align="right"> <b><i>16,036,720 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/coauthor/coPapersDBLP.graph.bz2"> coPapersDBLP.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/coauthor/coPapersDBLP.graph.bz2"> coPapersDBLP.graph </a></b></td>
 					<td align="right"><b><i> 540,486 </i></b> </td>
 					<td align="right"> <b><i>15,245,729 </i> </b> </td>
 					</tr> 

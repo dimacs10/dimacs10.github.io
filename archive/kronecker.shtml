@@ -69,9 +69,9 @@ Released   : 20100328
                 <div class="entry">
 				<p>
 				The original Kronecker files contain self-loops and multiple edges. These properties are
-				also present in real-world data sets. However, some tools cannot handle these "artifacts"
-				at the moment. That is why we present "cleansed" versions of the data sets as well.
-				For the Challenge you should expect to be confronted with the original data with self-loops
+				also present in real-world https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/ sets. However, some tools cannot handle these "artifacts"
+				at the moment. That is why we present "cleansed" versions of the https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/ sets as well.
+				For the Challenge you should expect to be confronted with the original https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/ with self-loops
 				and multiple edges. However, the final decision on this issue will be made based on 
 				participant feedback.
 				</p>
@@ -94,27 +94,27 @@ Released   : 20100328
                      <td><b><i>log_2 (n)</i></b></td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-logn16.graph.bz2">kron_g500-logn16.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-logn16.graph.bz2">kron_g500-logn16.graph.bz2</a></td><!-- Col 1 -->
                      <td>16</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-logn17.graph.bz2">kron_g500-logn17.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-logn17.graph.bz2">kron_g500-logn17.graph.bz2</a></td><!-- Col 1 -->
                      <td>17</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-logn18.graph.bz2">kron_g500-logn18.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-logn18.graph.bz2">kron_g500-logn18.graph.bz2</a></td><!-- Col 1 -->
                      <td>18</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-logn19.graph.bz2">kron_g500-logn19.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-logn19.graph.bz2">kron_g500-logn19.graph.bz2</a></td><!-- Col 1 -->
                      <td>19</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-logn20.graph.bz2">kron_g500-logn20.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-logn20.graph.bz2">kron_g500-logn20.graph.bz2</a></td><!-- Col 1 -->
                      <td>20</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-logn21.graph.bz2">kron_g500-logn21.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-logn21.graph.bz2">kron_g500-logn21.graph.bz2</a></td><!-- Col 1 -->
                      <td>21</td><!-- Col 2 -->
                   </tr>
                 </table>
@@ -134,27 +134,27 @@ Released   : 20100328
                      <td><b><i>log_2 (n)</i></b></td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-simple-logn16.graph.bz2">kron_g500-simple-logn16.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-simple-logn16.graph.bz2">kron_g500-simple-logn16.graph.bz2</a></td><!-- Col 1 -->
                      <td>16</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-simple-logn17.graph.bz2">kron_g500-simple-logn17.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-simple-logn17.graph.bz2">kron_g500-simple-logn17.graph.bz2</a></td><!-- Col 1 -->
                      <td>17</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-simple-logn18.graph.bz2">kron_g500-simple-logn18.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-simple-logn18.graph.bz2">kron_g500-simple-logn18.graph.bz2</a></td><!-- Col 1 -->
                      <td>18</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-simple-logn19.graph.bz2">kron_g500-simple-logn19.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-simple-logn19.graph.bz2">kron_g500-simple-logn19.graph.bz2</a></td><!-- Col 1 -->
                      <td>19</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-simple-logn20.graph.bz2">kron_g500-simple-logn20.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-simple-logn20.graph.bz2">kron_g500-simple-logn20.graph.bz2</a></td><!-- Col 1 -->
                      <td>20</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/kronecker/kron_g500-simple-logn21.graph.bz2">kron_g500-simple-logn21.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//kronecker/kron_g500-simple-logn21.graph.bz2">kron_g500-simple-logn21.graph.bz2</a></td><!-- Col 1 -->
                      <td>21</td><!-- Col 2 -->
                   </tr>
                 </table>			

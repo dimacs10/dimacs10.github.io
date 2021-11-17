@@ -81,7 +81,7 @@ task graphs for stream computing applications. Technical Report RC25181, IBM Res
 				<p>
 				For the graphs that were generated for test purposes we started at 20,000 vertices and increased
 				|V| by a factor of four every time until |V| = 5,120,000. Deepak's code was changed to use a fixed
-				seed, which allows you to reproduce our graphs. Check the <a href="data/task/md5sums.txt">md5sums</a>.
+				seed, which allows you to reproduce our graphs. Check the <a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//task/md5sums.txt">md5sums</a>.
 				The number of nodes are used as the prefix in the file names.
 				</p>
                 </div>

@@ -84,9 +84,9 @@ Released   : 20100328
                 </p>
 				<h4>Graph Files</h4>		
 				<p>
-                    The 15 compressed graph files (bzip2) are all in a subdirectory called archive/data/star-mixtures. They
+                    The 15 compressed graph files (bzip2) are all in a subdirectory called archive/https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//star-mixtures. They
                     can be downloaded from there with a tool like wget. Alternatively, you can download a
-                    <a href="data/star-mixtures/star-mixtures.tar">tar file of all these graphs</a> (16 MB).
+                    <a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//star-mixtures/star-mixtures.tar">tar file of all these graphs</a> (16 MB).
                 </p>
                 </div>
               </div>

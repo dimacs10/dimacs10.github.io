@@ -72,10 +72,10 @@ Released   : 20100328
 				</p>
 				<p>
 				These random graphs have been generated according to the Erd&ouml;s-R&eacute;nyi G(n,p) model with
-				p = 1.5 ln n / n. Download the <a href="../data/erdos-renyi-1.0.172.tgz">generator</a> 
+				p = 1.5 ln n / n. Download the <a href="../https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//erdos-renyi-1.0.172.tgz">generator</a> 
 				if you want to avoid downloading the graphs. Simply use ./compile to compile the source code and
 				run the script ./create-graphs-gnp.sh (requires 64-bit Linux, but should be customizable to other
-				64-bit platforms). Use the <a href="data/er/md5sums.txt">md5sums.txt file</a>
+				64-bit platforms). Use the <a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//er/md5sums.txt">md5sums.txt file</a>
 				to check the validity of the compressed files.	Please let <a href="http://www.cc.gatech.edu/~hmeyerhe">Henning
 				Meyerhenke</a> know if you encounter any problems.
 				</p>
@@ -89,31 +89,31 @@ Released   : 20100328
                      <td><b><i>log_2 (n)</i></b></td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/er/er-fact1.5-scale20.graph.bz2">er-fact1.5-scale20.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//er/er-fact1.5-scale20.graph.bz2">er-fact1.5-scale20.graph.bz2</a></td><!-- Col 1 -->
                      <td>20</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/er/er-fact1.5-scale21.graph.bz2">er-fact1.5-scale21.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//er/er-fact1.5-scale21.graph.bz2">er-fact1.5-scale21.graph.bz2</a></td><!-- Col 1 -->
                      <td>21</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/er/er-fact1.5-scale22.graph.bz2">er-fact1.5-scale22.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//er/er-fact1.5-scale22.graph.bz2">er-fact1.5-scale22.graph.bz2</a></td><!-- Col 1 -->
                      <td>22</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/er/er-fact1.5-scale23.graph.bz2">er-fact1.5-scale23.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//er/er-fact1.5-scale23.graph.bz2">er-fact1.5-scale23.graph.bz2</a></td><!-- Col 1 -->
                      <td>23</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/er/er-fact1.5-scale24.graph.bz2">er-fact1.5-scale24.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//er/er-fact1.5-scale24.graph.bz2">er-fact1.5-scale24.graph.bz2</a></td><!-- Col 1 -->
                      <td>24</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/er/er-fact1.5-scale25.graph.bz2">er-fact1.5-scale25.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//er/er-fact1.5-scale25.graph.bz2">er-fact1.5-scale25.graph.bz2</a></td><!-- Col 1 -->
                      <td>25</td><!-- Col 2 -->
                   </tr>
                   <tr><!-- Row -->
-                     <td><a href="data/er/er-fact1.5-scale26.graph.bz2">er-fact1.5-scale26.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//er/er-fact1.5-scale26.graph.bz2">er-fact1.5-scale26.graph.bz2</a></td><!-- Col 1 -->
                      <td>26</td><!-- Col 2 -->
                   </tr>
                 </table>

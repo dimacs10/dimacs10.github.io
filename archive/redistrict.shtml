@@ -82,7 +82,7 @@ Released   : 20100328
 				</p>
 				<p>
 				Please use the command 
-				<i>wget -r -np http://www.cc.gatech.edu/dimacs10/archive/data/redistrict/</i>
+				<i>wget -r -np https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/redistrict/</i>
 				or something similar to download the files.
 				</p>
                 </div>

@@ -91,85 +91,85 @@ Released   : 20100328
                      <td align="right"><b><i>m</i></b></td><!-- Col 3 -->
                   </tr>
 					 <tr>
-					<td><b><a href="data/matrix/af_shell10.graph.bz2"> af_shell10.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/af_shell10.graph.bz2"> af_shell10.graph </a></b></td>
 					<td align="right"><b><i> 1,508,065 </i></b> </td>
 					<td align="right"> <b><i>25,582,130 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/af_shell9.graph.bz2"> af_shell9.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/af_shell9.graph.bz2"> af_shell9.graph </a></b></td>
 					<td align="right"><b><i> 504,855 </i></b> </td>
 					<td align="right"> <b><i>8,542,010 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/audikw1.graph.bz2"> audikw1.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/audikw1.graph.bz2"> audikw1.graph </a></b></td>
 					<td align="right"><b><i> 943,695 </i></b> </td>
 					<td align="right"> <b><i>38,354,076 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/cage15.graph.bz2"> cage15.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/cage15.graph.bz2"> cage15.graph </a></b></td>
 					<td align="right"><b><i> 5,154,859 </i></b> </td>
 					<td align="right"> <b><i>94,044,692 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/ecology1.graph.bz2"> ecology1.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/ecology1.graph.bz2"> ecology1.graph </a></b></td>
 					<td align="right"><b><i> 1,000,000 </i></b> </td>
 					<td align="right"> <b><i>1,998,000 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/ecology2.graph.bz2"> ecology2.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/ecology2.graph.bz2"> ecology2.graph </a></b></td>
 					<td align="right"><b><i> 999,999 </i></b> </td>
 					<td align="right"> <b><i>1,997,996 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/G3_circuit.graph.bz2"> G3_circuit.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/G3_circuit.graph.bz2"> G3_circuit.graph </a></b></td>
 					<td align="right"><b><i> 1,585,478 </i></b> </td>
 					<td align="right"> <b><i>3,037,674 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/kkt_power.graph.bz2"> kkt_power.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/kkt_power.graph.bz2"> kkt_power.graph </a></b></td>
 					<td align="right"><b><i> 2,063,494 </i></b> </td>
 					<td align="right"> <b><i>6,482,320 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/ldoor.graph.bz2"> ldoor.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/ldoor.graph.bz2"> ldoor.graph </a></b></td>
 					<td align="right"><b><i> 952,203 </i></b> </td>
 					<td align="right"> <b><i>22,785,136 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/nlpkkt120.graph.bz2"> nlpkkt120.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/nlpkkt120.graph.bz2"> nlpkkt120.graph </a></b></td>
 					<td align="right"><b><i> 3,542,400 </i></b> </td>
 					<td align="right"> <b><i>46,651,696 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/nlpkkt160.graph.bz2"> nlpkkt160.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/nlpkkt160.graph.bz2"> nlpkkt160.graph </a></b></td>
 					<td align="right"><b><i> 8,345,600 </i></b> </td>
 					<td align="right"> <b><i>110,586,256 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/nlpkkt200.graph.bz2"> nlpkkt200.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/nlpkkt200.graph.bz2"> nlpkkt200.graph </a></b></td>
 					<td align="right"><b><i> 16,240,000 </i></b> </td>
 					<td align="right"> <b><i>215,992,816 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/nlpkkt240.graph.bz2"> nlpkkt240.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/nlpkkt240.graph.bz2"> nlpkkt240.graph </a></b></td>
 					<td align="right"><b><i> 27,993,600 </i></b> </td>
 					<td align="right"> <b><i>373,239,376 </i> </b> </td>
 					</tr>
 
 					<tr>
-					<td><b><a href="data/matrix/thermal2.graph.bz2"> thermal2.graph </a></b></td>
+					<td><b><a href="https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10//matrix/thermal2.graph.bz2"> thermal2.graph </a></b></td>
 					<td align="right"><b><i> 1,227,087 </i></b> </td>
 					<td align="right"> <b><i>3,676,134 </i> </b> </td>
 					</tr> 
