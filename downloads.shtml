@@ -94,7 +94,7 @@ Released   : 20100328
 				synthetic and real-world ones, coming from different applications.
 				Please follow the individual links to reach their respective download pages with more information.
 				<b>The complete testbed, for example downloadable with the command
-				wget -r -np http://www.cc.gatech.edu/dimacs10/archive/data/, has a size of roughly 20GB.
+				wget -r -np https://www2.informatik.hu-berlin.de/~wwwmaks/dimacs10/, has a size of roughly 20GB.
 				</b>
 				</p>
 				<p>
