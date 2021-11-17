@@ -25,7 +25,7 @@ Released   : 20100328
 <div id="wrapper">
 		<div id="header">
 		<div id="logo">
-			<h3 align="center"><a href="http://www.cc.gatech.edu/dimacs10/index.shtml">&mdash; 10th DIMACS Implementation Challenge -
+			<h3 align="center"><a href="https://dimacs10.github.io/index.shtml">&mdash; 10th DIMACS Implementation Challenge -
 			Graph Partitioning and Graph Clustering &mdash;</a></h3>
 			<p align="center">
 			Co-sponsored by <a href="http://dimacs.rutgers.edu/" title="DIMACS">DIMACS</a> and 
