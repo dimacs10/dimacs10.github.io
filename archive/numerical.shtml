@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Deviation  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100328
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="DIMACS, implementation challenge, graph partitioning, graph clustering" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>10th DIMACS Implementation Challenge
+</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="wrapper">
+		<div id="header">
+		<div id="logo">
+			<h3 align="center"><a href="http://www.cc.gatech.edu/dimacs10/index.shtml">&mdash; 10th DIMACS Implementation Challenge -
+			Graph Partitioning and Graph Clustering &mdash;</a></h3>
+			<p align="center">
+			Co-sponsored by <a href="http://dimacs.rutgers.edu/" title="DIMACS">DIMACS</a> and 
+			by the <a href="http://ccicada.rutgers.edu/">Command, Control, and Interoperability Center for Advanced Data Analysis (CCICADA)</a>,<br>
+			<a href="http://www.pnl.gov/">Pacific Northwest National Laboratory</a>, <a href="http://www.sandia.gov/">Sandia National Laboratories</a>,
+			<a href="http://www.intel.com">Intel Corporation</a> and <a href="http://www.dfg.de/en/">Deutsche Forschungsgemeinschaft (DFG)</a>
+			</p>
+		</div>
+	</div>
+	<!-- end #header -->
+
+		<div id="menu">
+		<ul>
+          <li> 
+            <a href="../index.shtml">Home</a> </li>
+		  <li>
+		    <a href="../participation.shtml">Participation</a> </li>
+          <li>
+            <a href="../schedule.shtml">Schedule</a> </li>
+          <li class="current_page_item">
+            <a href="../downloads.shtml">Downloads</a> </li>
+          <li>
+            <a href="../submission.shtml">Submission</a> </li>
+          <li>
+            <a href="../workshop.shtml">Workshop</a> </li>
+          <li>
+            <a href="../organization.shtml">Organization</a> </li>
+          <li>
+            <a href="../mailing.shtml">Contact</a> </li>
+          <li>
+            <a href="../links.shtml">Links</a> </li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+
+	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+              <div class="post">
+                <h2 class="title">Graphs from Numerical Simulations</h2>
+                <div class="entry">
+				<p>
+				Last graph file update: Dec 12th, 2011
+				</p>
+				<p>
+				These graphs have been used in numerical simulations.
+				</p>
+				<p>
+				For the graphs <i>adaptive</i> and <i>venturiLevel3</i>,
+				please refer to the <a href="http://www.emcl.kit.edu/preprints/emcl-preprint-2010-06.pdf">preprint</a> of:
+				<br>
+				<i>Hartwig Anzt, Werner Augustin, Martin Baumann, Hendryk Bockelmann, Thomas Gengenbach, Tobias Hahn, Vincent Heuveline,
+				Eva Ketelaer, Dimitar Lukarski, Andrea Otzen, Sebastian Ritterbusch, Bj&ouml;rn Rocker, Staffan Ronn&aring;s, Michael Schick, Chandramowli Subramanian, 
+				Jan-Philipp Weiss, and Florian Wilhelm. Hiflow3 - a flexible and hardware-aware parallel Finite element package. In Parallel/High-Performance
+				Object-Oriented Scientific Computing (POOSC'10), accepted</i>.
+				</p>
+				<p>
+				For the graphs <i>channel-500x100x100-b050</i> and <i>packing-500x100x100-b050</i>,
+				please refer to
+				<br>
+				<a href="numerical-overview-Erlangen.pdf"><i>Markus Wittmann, Thomas Zeiser. Technical Note: Data Structures
+				of ILBDC Lattice Boltzmann Solver</i></a>.
+				</p>
+				<p>
+				The instances NACA0015, M6, 333SP, AS365, and NLR are 2-dimensional FE triangular
+				meshes with coordinate information. 333SP and AS365 are actually converted
+				from existing 3-dimensional models to 2D places, while the rest are created 
+				from geometry.  The corresponding <a href="data/numerical/num-coords.tar.bz2">coordinate files</a> have been assembled in
+				one archive.  They have been created and contributed by
+				<b>Chan Siew Yin</b> with the help of Jian Tao Zhang, Department of Mechanical
+				Engineering, University of New Brunswick, Fredericton, Canada.
+				The corresponding paper is:
+				Siew Yin Chan, Teck Chaw Ling, Eric Aubanel, 
+				"The impact of heterogeneous multi-core clusters on graph partitioning: An empirical study". Cluster Computing, 15(3), pp. 281–302, 2012.
+				</p>
+				<p>
+				All files are compressed with bzip2.
+				</p>
+				<h4>Graph Files</h4>
+				<p>
+				  <table border="0"  width="95%" class="tabular" cellspacing="3" cellpadding="7">
+				  <colgroup>
+					<col width="225">
+					<col width="50">
+					<col width="50">
+				  </colgroup>
+                  <tr><!-- Row 1 -->
+                     <td><b>Graph</b></td><!-- Col 1 -->
+                     <td align="right"><b><i>n</i></b></td><!-- Col 3 -->
+                     <td align="right"><b><i>m</i></b></td><!-- Col 4 -->
+                  </tr>
+					<tr>
+					<td><b><a href="data/numerical/adaptive.graph.bz2">adaptive.graph.bz2</a></b></td>
+					<td align="right"><b><i>  </i></b> </td>
+					<td align="right"> <b><i>  </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/numerical/venturiLevel3.graph.bz2">venturiLevel3.graph.bz2</a></b></td>
+					<td align="right"><b><i>  </i></b> </td>
+					<td align="right"> <b><i>  </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/numerical/channel-500x100x100-b050.graph.bz2">channel-500x100x100-b050.graph.bz2</a></b></td>
+					<td align="right"><b><i>  </i></b> </td>
+					<td align="right"> <b><i>  </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/numerical/packing-500x100x100-b050.graph.bz2">packing-500x100x100-b050.graph.bz2</a></b></td>
+					<td align="right"><b><i>  </i></b> </td>
+					<td align="right"> <b><i>  </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/numerical/NACA0015.graph.bz2">NACA0015.graph.bz2</a></b> (A NACA0015 airfoil)</td>
+					<td align="right"><b><i> 1,039,183 </i></b> </td>
+					<td align="right"> <b><i> 3,114,818 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/numerical/M6.graph.bz2">M6.graph.bz2</a></b> (An ORENA M6 wing)</td>
+					<td align="right"><b><i> 3,501,776 </i></b> </td>
+					<td align="right"> <b><i> 10,501,936 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/numerical/333SP.graph.bz2">333SP.graph.bz2</a></b> (A Ferrari 333 SP)</td>
+					<td align="right"><b><i> 3,712,815 </i></b> </td>
+					<td align="right"> <b><i> 11,108,633 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/numerical/AS365.graph.bz2">AS365.graph.bz2</a></b> (An Eurocopter AS365 Dauphin)</td>
+					<td align="right"><b><i> 3,799,275 </i></b> </td>
+					<td align="right"> <b><i> 11,368,076 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/numerical/NLR.graph.bz2">NLR.graph.bz2</a></b> (An NLR airfoil with flap)</td>
+					<td align="right"><b><i> 4,163,763 </i></b> </td>
+					<td align="right"> <b><i> 12,487,976 </i> </b> </td>
+					</tr>
+
+					</table>			
+				</p>
+                </div>
+              </div>
+		<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+				<div id="sidebar">
+        </div>
+        <!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+</div>
+		<div id="footer">
+		<p>Website created and <a href="../sidebar.html"></a>maintained by <a href="http://www.cc.gatech.edu/~hmeyerhe" target="_blank">Henning Meyerhenke</a>.
+		   Design based on the template <a target=_blank href="http://www.freecsstemplates.org/preview/deviation/"><i>Deviation</i></a> 
+		   by <a target=_blank href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+		</p>
+	</div>
+	<!-- end #footer -->
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Deviation  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100328
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="DIMACS, implementation challenge, graph partitioning, graph clustering" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>10th DIMACS Implementation Challenge
+</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="wrapper">
+		<div id="header">
+		<div id="logo">
+			<h3 align="center"><a href="http://www.cc.gatech.edu/dimacs10/index.shtml">&mdash; 10th DIMACS Implementation Challenge -
+			Graph Partitioning and Graph Clustering &mdash;</a></h3>
+			<p align="center">
+			Co-sponsored by <a href="http://dimacs.rutgers.edu/" title="DIMACS">DIMACS</a> and 
+			by the <a href="http://ccicada.rutgers.edu/">Command, Control, and Interoperability Center for Advanced Data Analysis (CCICADA)</a>,<br>
+			<a href="http://www.pnl.gov/">Pacific Northwest National Laboratory</a>, <a href="http://www.sandia.gov/">Sandia National Laboratories</a>,
+			<a href="http://www.intel.com">Intel Corporation</a> and <a href="http://www.dfg.de/en/">Deutsche Forschungsgemeinschaft (DFG)</a>
+			</p>
+		</div>
+	</div>
+	<!-- end #header -->
+
+		<div id="menu">
+		<ul>
+          <li> 
+            <a href="../index.shtml">Home</a> </li>
+		  <li>
+		    <a href="../participation.shtml">Participation</a> </li>
+          <li>
+            <a href="../schedule.shtml">Schedule</a> </li>
+          <li class="current_page_item">
+            <a href="../downloads.shtml">Downloads</a> </li>
+          <li>
+            <a href="../submission.shtml">Submission</a> </li>
+          <li>
+            <a href="../workshop.shtml">Workshop</a> </li>
+          <li>
+            <a href="../organization.shtml">Organization</a> </li>
+          <li>
+            <a href="../mailing.shtml">Contact</a> </li>
+          <li>
+            <a href="../links.shtml">Links</a> </li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+
+	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+              <div class="post">
+                <h2 class="title">Redistricting</h2>
+                <div class="entry">
+				<p>
+				Last graph file change: September 12th, 2011
+				</p>
+				<p>
+				These graphs represent US states. They are used for solving the redistricting problem.
+				All data have been provided by Will Zhao. As stated on the 
+				<a href="https://code.google.com/p/beorn/">project website</a>,
+				"(t)he nodes are Census2010 blocks. Two nodes have an edge linking them if they 
+				share a line segment on their (blocks') borders, i.e. rook-style neighboring.
+				The nodes' weights are the POP100 variable of Census2010-PL94."
+				For more information visit the <a href="https://code.google.com/p/beorn/">project website</a>
+				and take a look at the <a href="data/redistrict/README">README file</a>.
+				</p>
+				<p>
+				Please use the command 
+				<i>wget -r -np http://www.cc.gatech.edu/dimacs10/archive/data/redistrict/</i>
+				or something similar to download the files.
+				</p>
+                </div>
+              </div>
+		<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+				<div id="sidebar">
+        </div>
+        <!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+</div>
+		<div id="footer">
+		<p>Website created and <a href="../sidebar.html"></a>maintained by <a href="http://www.cc.gatech.edu/~hmeyerhe" target="_blank">Henning Meyerhenke</a>.
+		   Design based on the template <a target=_blank href="http://www.freecsstemplates.org/preview/deviation/"><i>Deviation</i></a> 
+		   by <a target=_blank href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+		</p>
+	</div>
+	<!-- end #footer -->
+
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Deviation  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100328
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="DIMACS, implementation challenge, graph partitioning, graph clustering" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>10th DIMACS Implementation Challenge
+</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="wrapper">
+		<div id="header">
+		<div id="logo">
+			<h3 align="center"><a href="http://www.cc.gatech.edu/dimacs10/index.shtml">&mdash; 10th DIMACS Implementation Challenge -
+			Graph Partitioning and Graph Clustering &mdash;</a></h3>
+			<p align="center">
+			Co-sponsored by <a href="http://dimacs.rutgers.edu/" title="DIMACS">DIMACS</a> and 
+			by the <a href="http://ccicada.rutgers.edu/">Command, Control, and Interoperability Center for Advanced Data Analysis (CCICADA)</a>,<br>
+			<a href="http://www.pnl.gov/">Pacific Northwest National Laboratory</a>, <a href="http://www.sandia.gov/">Sandia National Laboratories</a>,
+			<a href="http://www.intel.com">Intel Corporation</a> and <a href="http://www.dfg.de/en/">Deutsche Forschungsgemeinschaft (DFG)</a>
+			</p>
+		</div>
+	</div>
+	<!-- end #header -->
+
+	<div id="menu">
+		<ul>
+          <li> 
+            <a href="index.shtml">Home</a> </li>
+		  <li>
+		    <a href="participation.shtml">Participation</a> </li>
+          <li>
+            <a href="schedule.shtml">Schedule</a> </li>
+          <li class="current_page_item">
+            <a href="downloads.shtml">Downloads</a> </li>
+          <li>
+            <a href="submission.shtml">Submission</a> </li>
+          <li>
+            <a href="workshop.shtml">Workshop</a> </li>
+          <li>
+            <a href="organization.shtml">Organization</a> </li>
+          <li>
+            <a href="mailing.shtml">Contact</a> </li>
+          <li>
+            <a href="links.shtml">Links</a> </li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+	        <div class="post">    
+	        <h2 class="title">How to Cite the Downloads</h2>
+	        <div class="entry">
+	        <p>
+	        If you use these data in your research, please cite the original source
+	        and/or one of the following:
+	        </p>
+		<p>
+		David A. Bader, Andrea Kappes, Henning Meyerhenke, Peter Sanders,
+		Christian Schulz and Dorothea Wagner. Benchmarking for Graph Clustering
+		and Partitioning. In Encyclopedia of Social Network Analysis and Mining,
+		pages 73-82. Springer, 2014.
+		</p>
+		<p>
+		David A. Bader, Henning Meyerhenke, Peter Sanders, Dorothea Wagner
+		(eds.): Graph Partitioning and Graph Clustering. 10th DIMACS
+		Implementation Challenge Workshop. February 13-14, 2012. Georgia
+		Institute of Technology, Atlanta, GA. Contemporary Mathematics 588.
+		American Mathematical Society and Center for Discrete Mathematics and
+		Theoretical Computer Science, 2013.
+		</p>
+		</div>
+		</div>
+              <div class="post">
+                <h2 class="title">Downloads</h2>
+                <div class="entry">
+				<p>
+				The testbed for the Challenge comprises a large number of different graphs, both
+				synthetic and real-world ones, coming from different applications.
+				Please follow the individual links to reach their respective download pages with more information.
+				<b>The complete testbed, for example downloadable with the command
+				wget -r -np http://www.cc.gatech.edu/dimacs10/archive/data/, has a size of roughly 20GB.
+				</b>
+				</p>
+				<p>
+				We are still looking for more instances, in particular those based on real-world applications.
+				If you can share your data, please <a href="mailing.shtml">contact us</a>. Your contribution
+				is very much appreciated!
+				</p>
+				<ul>
+				<li>
+				<h4><a href="archive/kronecker.shtml">Kronecker (Graph500)</a></h4>
+				These graphs are synthetic graphs
+				created with the Kronecker generator of the
+				<a href="http://graph500.org">Graph500 benchmark</a>.
+				</li>
+				<li>
+				<h4><a href="archive/dyn-frames.shtml">Frames from 2D Dynamic Simulations</a></h4>
+				These graphs are synthetic meshes.
+				They have been generated as part of dynamic mesh sequences
+				which resemble adaptive 2D numerical simulations.
+				</li>
+				<li>
+				<h4><a href="archive/delaunay.shtml">Delaunay Graphs</a></h4>
+				These graphs have been generated as
+				Delaunay triangulations of random points in the plane.				
+				</li>
+				<li>
+				<h4><a href="archive/coauthor.shtml">Co-author and Citation Networks</a></h4>
+				These real-world social networks are created from co-authorships
+				and citations.
+				</li>
+				<li>
+				<h4><a href="archive/streets.shtml">Street Networks</a></h4>
+				These graphs are real-world street networks.
+				</li>
+				<li>
+				<h4><a  href="http://chriswalshaw.co.uk/partition/">Walshaw's Graph Partitioning Archive</a></h4>
+				<a  href="http://chriswalshaw.co.uk/partition/">Chris Walshaw's graph
+				partitioning archive</a> contains 34 graphs that have been very popular as 
+				benchmarks for graph partitioning algorithms. The files can be downloaded from there
+				or from our directory <a href="http://www.cc.gatech.edu/dimacs10/archive/data/walshaw/">http://www.cc.gatech.edu/dimacs10/archive/data/walshaw/</a>.
+				</li>
+				<li>
+				<h4><a href="archive/matrix.shtml">
+				Sparse Matrices</a></h4>
+				<a href="archive/matrix.shtml">Here</a> we provide a small subset of the 
+				<a href="http://www.cise.ufl.edu/research/sparse/matrices/">
+				Florida Sparse Matrix Collection</a> maintained by Tim Davis and Yifan Hu.
+				</li>
+				<li>
+				<h4><a href="archive/random.shtml">Random Geometric Graphs</a></h4>
+				These graphs have been generated from random points in the unit
+				square. Edges connect vertices whose Euclidean distance is below <i>0.55 ln n/n</i>. 
+				</li>
+				<li>
+				<h4><a href="archive/clustering.shtml">Clustering Instances</a></h4>
+				These real-world graphs are often used as benchmarks in the graph clustering and
+				community detection communities.
+				</li>
+				<li>
+				<h4><a href="archive/numerical.shtml">Graphs from Numerical Simulations</a></h4>
+				These graphs have been used in numerical simulations.
+				</li>
+				<li>
+				<h4><a href="archive/er.shtml">Erd&ouml;s-R&eacute;nyi Graphs</a></h4>
+				Some random graphs from the G(n,p) model.
+				</li>
+				<li>
+				<h4><a href="archive/task.shtml">Computational Task Graphs</a></h4>
+				A generator for computational task graphs of streaming applications is provided.
+				</li>
+				<li>
+				<h4><a href="archive/redistrict.shtml">Redistricting</a></h4>
+				Graphs representing the US states in the redistricting problem.
+				</li>
+                <li>
+                <h4><a href="archive/star-mixtures.shtml">Star Mixtures</a></h4>
+                Star-like structures of diﬀerent graphs with different types.
+                </li>
+				</ul>
+				Note that Tim Davis also included the current state (Apr 15, 2011) in the 
+				<a href="http://www.cise.ufl.edu/research/sparse/dimacs10/" title="UFC">University of Florida
+				Sparse Matrix Collection</a>. At this site he also made his MATLAB&reg; code 
+				available with which graphs can be imported to MATLAB from the Metis format.
+				</div>
+              </div>
+              <div class="post">
+                <h2 class="title">File Formats</h2>
+                <div class="entry">
+				<p>
+				We use the popular Metis input/output formats for I/O (and extend them in
+				certain cases). This applies to files for 
+				input graphs and solutions (partition/cluster assignments). All files are simple
+				ASCII text files. In the following descriptions, <i>n</i> denotes the number 
+				of vertices in the graph.
+				</p>
+				<h4>Graph Format</h4>
+				<p>
+				Note that for the Challenge the input graphs might be seen as unweighted,
+				i. e. weighted instances might be seen as having unit weights for both vertices
+				and edges. Details on this aspect will be announced later.
+				</p>
+				<p>
+				Following the <a href="data/manual.ps">
+				Metis User's Guide, Version 4.0</a>, the graph files may contain
+				comment lines that begin with the character '%'. Such lines are ignored.
+				At its simplest a correct input contains <i>n+1</i> uncommented lines. The first
+				of these lines contains either two, three, or four integers, separated by space.
+				The first two obligatory entries are the number of vertices and
+				the number of edges in the graph. Note that in this case the number of edges is only half of
+				the sum of the vertex degrees. The third and fourth parameter in the first line are optional
+				and control input of weighted graphs. For details on weighted graphs
+				see Section 4.5.1 of the <a href="data/manual.ps">
+				Metis User Guide, Version 4.0</a>.
+				</p>
+				<p>
+				<b>Important:</b>
+				There is one exception to the use of the format described in Section 4.5.1. If the
+				graph contains self-loops and/or multiple edges, the third parameter in the first line
+				is set to <i>100</i>. Since Metis does not allow such graphs, this extension of the format
+				is necessary. To exclude these graphs upfront would mean to exclude many real-world instances.
+				Also note that in this case the second parameter is the actual number of <i>edge entries</i> in the
+				file, i. e., the sum of the vertex degrees. This deviation is necessary due to self-loops.
+				They do not appear twice in the file, as undirected (= bidirected) edges do.
+				</p>
+				<p>
+				In the unweighted case, the remaining <i>n</i> lines contain neighbor lists
+				for each vertex from <i>1</i> to <i>n</i> in order. These lists are sets of integers
+				separated by spaces and contain all the neighbors of a given vertex. The neighbors
+				may be listed in any order. Note that vertices are numbered <i>1</i> to <i>n</i>,
+				<b>not</b> from <i>0</i> to <i>n-1</i>.
+				For possible extensions, please refer again to Section 4.5.1 in the 
+				<a href="data/manual.ps">
+				Metis User Guide, Version 4.0</a>. You will find there examples of small graphs
+				and their respective representations, too.
+				</p>
+				<h4>Output Format</h4>
+				<p>
+				The partition/cluster assignment files have <i>n</i> uncommented lines.
+				In line <i>i</i> the assignment value for vertex <i>i</i> is given as an integer
+				between <i>0</i> and <i>p-1</i>, where <i>p</i> is the number of partitions.
+				</p>
+				<h4>Geometry Format</h4>
+				<p>
+				Vertex coordinates can optionally be supplied in a separate file. This file should
+				have the same name as the graph file. But instead of the file extension 
+				<i>.graph</i>, the coordinate file has the extension <i>.xyz</i>.
+				These coordinate files must have <i>n</i> uncommented lines, with line <i>i</i>
+				containing the coordinates of vertex <i>i</i>. Each line must contain one, two, or
+				three floating-point values, depending on the geometry type.
+				</p>
+                </div>
+              </div>
+		<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+				<div id="sidebar">
+        <img src="conm-588-bader-cov1.jpg" alt="Book cover of 10th Challenge" width="100%" style="margin-bottom:15px"/>
+        <ul>
+          <li>
+          	<h2>News</h2>
+          	<ul>
+		<li><b>Jan 23, 2015:</b> A new paper has been published in the Encyclopedia of Social Network Analysis and Mining.</li>
+        	<li><b>Feb 18, 2013:</b> The Challenge book will be published by AMS soon.</li>
+		<li><b>Mar 31, 2012:</b> The <a href="results/">challenge results</a> are online.</li>
+                <li><b>Mar 30, 2012:</b> Archive update: New graph category <a href="archive/star-mixtures.shtml">Star Mixtures</a>.</li>
+                <li><b>Feb 24, 2012:</b> Most <a href="program.shtml">
+                talk slides</a> are available.</li>
+                <li><b>Feb 10, 2012:</b> <a href="program.shtml">Final workshop program</a> online!</li>
+                <li><b>Jan 23, 2012:</b> The challenge instances have been announced. Happy computing!</li>
+          		<li><b>Dec 27, 2011:</b> Tim Mattson (Intel) has joined the advisory board. Welcome, Tim!</li>
+				<li><b>Dec 1 and 12, 2011:</b> Updated <a href="workshop.shtml">workshop registration</a> information, new graphs in category <a href="archive/numerical.shtml">numerical</a>!</li>
+				<li><b>Nov 7, 2011:</b> Thank you for your submissions! New details on <a href="workshop.shtml">workshop times</a> available!</li>
+				<li><b>Sep  21, 2011:</b> Updated workshop and venue information.</li>
+				<li><b>Sep  12, 2011:</b> Archive update: New graph category <a href="archive/redistrict.shtml">Redistricting</a>.</li>
+				<li><b>Jul  26, 2011:</b> Archive update: New graph category <a href="archive/er.shtml">Erd&ouml;s-R&eacute;nyi</a>, additions to category Clustering
+				(see the <a href="archive/clustering.shtml">description page</a> for details). The new archive size is
+				about 35GB.
+				</li>			
+				<li><b>Jul   7, 2011:</b> Minor update of <a href="data/dimacs10-rules.pdf">objective functions</a> 
+				  to handle some pathological cases.</li>
+				<li><b>Jun  28, 2011:</b> The <a href="data/call-for-papers.pdf">call for papers</a> is online.</li>
+				<li><b>Apr  15, 2011:</b> The <a href="data/dimacs10-rules.pdf">scoring rules and objective 
+				  functions</a> are now available!</li>
+				<li><b>Apr  1, 2011:</b> Maintenance in the testbed archive nearly completed. Some additions
+				  and descriptions are still expected. Changes of and additions to the testbed data
+				  from this point on will be announced on the mailing list.</li>
+				<li><b>Mar 14, 2011:</b> A few changes in the directory structure and file names have been made
+				  to improve consistency. All testbed files (approx. 20GB) are now downloadable with <i>wget -r -np http://www.cc.gatech.edu/dimacs10/archive/data/</i>.
+				  Note that the webserver creates a few additional HTML files (mostly directory listings).</li>
+				<li><b>Feb 1, 2011:</b> Official Challenge launch!</li>
+          		<li><b>Jan 7, 2011:</b> The website is published at its permanent location.</li>
+          	</ul>
+          </li>
+          <li>
+          	<h2>Previous Challenges</h2>
+          	<ul>
+          		<li><a target=_blank href="http://www.dis.uniroma1.it/~challenge9/index.shtml">The Shortest Path Problem (2006)</a></li>
+         		<li><a target=_blank href="http://www.research.att.com/~dsj/chtsp/">Traveling Salesman Problem (2001)</a></li>
+         		<li><a target=_blank href="http://dimacs.rutgers.edu/Challenges/">Full list</a></li>
+          	</ul>
+          </li>
+        </ul>
+        </div>
+        <!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+</div>
+		<div id="footer">
+		<p>Website created and <a href="../sidebar.html"></a>maintained by <a href="http://www.cc.gatech.edu/~hmeyerhe" target="_blank">Henning Meyerhenke</a>.
+		   Design based on the template <a target=_blank href="http://www.freecsstemplates.org/preview/deviation/"><i>Deviation</i></a> 
+		   by <a target=_blank href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+		</p>
+	</div>
+	<!-- end #footer -->
+
+</body>
+</html>

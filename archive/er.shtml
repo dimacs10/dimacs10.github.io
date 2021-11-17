@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Deviation  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100328
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="DIMACS, implementation challenge, graph partitioning, graph clustering" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>10th DIMACS Implementation Challenge
+</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="wrapper">
+		<div id="header">
+		<div id="logo">
+			<h3 align="center"><a href="http://www.cc.gatech.edu/dimacs10/index.shtml">&mdash; 10th DIMACS Implementation Challenge -
+			Graph Partitioning and Graph Clustering &mdash;</a></h3>
+			<p align="center">
+			Co-sponsored by <a href="http://dimacs.rutgers.edu/" title="DIMACS">DIMACS</a> and 
+			by the <a href="http://ccicada.rutgers.edu/">Command, Control, and Interoperability Center for Advanced Data Analysis (CCICADA)</a>,<br>
+			<a href="http://www.pnl.gov/">Pacific Northwest National Laboratory</a>, <a href="http://www.sandia.gov/">Sandia National Laboratories</a>,
+			<a href="http://www.intel.com">Intel Corporation</a> and <a href="http://www.dfg.de/en/">Deutsche Forschungsgemeinschaft (DFG)</a>
+			</p>
+		</div>
+	</div>
+	<!-- end #header -->
+
+		<div id="menu">
+		<ul>
+          <li> 
+            <a href="../index.shtml">Home</a> </li>
+		  <li>
+		    <a href="../participation.shtml">Participation</a> </li>
+          <li>
+            <a href="../schedule.shtml">Schedule</a> </li>
+          <li class="current_page_item">
+            <a href="../downloads.shtml">Downloads</a> </li>
+          <li>
+            <a href="../submission.shtml">Submission</a> </li>
+          <li>
+            <a href="../workshop.shtml">Workshop</a> </li>
+          <li>
+            <a href="../organization.shtml">Organization</a> </li>
+          <li>
+            <a href="../mailing.shtml">Contact</a> </li>
+          <li>
+            <a href="../links.shtml">Links</a> </li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+
+	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+              <div class="post">
+                <h2 class="title">Erd&ouml;s-R&eacute;nyi Graphs</h2>
+                <div class="entry">
+				<p>
+				Last update: July 26, 2011
+				</p>
+				<p>
+				These random graphs have been generated according to the Erd&ouml;s-R&eacute;nyi G(n,p) model with
+				p = 1.5 ln n / n. Download the <a href="../data/erdos-renyi-1.0.172.tgz">generator</a> 
+				if you want to avoid downloading the graphs. Simply use ./compile to compile the source code and
+				run the script ./create-graphs-gnp.sh (requires 64-bit Linux, but should be customizable to other
+				64-bit platforms). Use the <a href="data/er/md5sums.txt">md5sums.txt file</a>
+				to check the validity of the compressed files.	Please let <a href="http://www.cc.gatech.edu/~hmeyerhe">Henning
+				Meyerhenke</a> know if you encounter any problems.
+				</p>
+				<table border="0"  width="100%" class="tabular" cellspacing="1" cellpadding="5">
+				  <colgroup>
+					<col width="225">
+					<col width="175">
+				  </colgroup>
+                  <tr><!-- Row 1 -->
+                     <td><b>Graph</b></td><!-- Col 1 -->
+                     <td><b><i>log_2 (n)</i></b></td><!-- Col 2 -->
+                  </tr>
+                  <tr><!-- Row -->
+                     <td><a href="data/er/er-fact1.5-scale20.graph.bz2">er-fact1.5-scale20.graph.bz2</a></td><!-- Col 1 -->
+                     <td>20</td><!-- Col 2 -->
+                  </tr>
+                  <tr><!-- Row -->
+                     <td><a href="data/er/er-fact1.5-scale21.graph.bz2">er-fact1.5-scale21.graph.bz2</a></td><!-- Col 1 -->
+                     <td>21</td><!-- Col 2 -->
+                  </tr>
+                  <tr><!-- Row -->
+                     <td><a href="data/er/er-fact1.5-scale22.graph.bz2">er-fact1.5-scale22.graph.bz2</a></td><!-- Col 1 -->
+                     <td>22</td><!-- Col 2 -->
+                  </tr>
+                  <tr><!-- Row -->
+                     <td><a href="data/er/er-fact1.5-scale23.graph.bz2">er-fact1.5-scale23.graph.bz2</a></td><!-- Col 1 -->
+                     <td>23</td><!-- Col 2 -->
+                  </tr>
+                  <tr><!-- Row -->
+                     <td><a href="data/er/er-fact1.5-scale24.graph.bz2">er-fact1.5-scale24.graph.bz2</a></td><!-- Col 1 -->
+                     <td>24</td><!-- Col 2 -->
+                  </tr>
+                  <tr><!-- Row -->
+                     <td><a href="data/er/er-fact1.5-scale25.graph.bz2">er-fact1.5-scale25.graph.bz2</a></td><!-- Col 1 -->
+                     <td>25</td><!-- Col 2 -->
+                  </tr>
+                  <tr><!-- Row -->
+                     <td><a href="data/er/er-fact1.5-scale26.graph.bz2">er-fact1.5-scale26.graph.bz2</a></td><!-- Col 1 -->
+                     <td>26</td><!-- Col 2 -->
+                  </tr>
+                </table>
+                </div>
+              </div>
+		<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+				<div id="sidebar">
+        </div>
+        <!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+</div>
+		<div id="footer">
+		<p>Website created and <a href="../sidebar.html"></a>maintained by <a href="http://www.cc.gatech.edu/~hmeyerhe" target="_blank">Henning Meyerhenke</a>.
+		   Design based on the template <a target=_blank href="http://www.freecsstemplates.org/preview/deviation/"><i>Deviation</i></a> 
+		   by <a target=_blank href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+		</p>
+	</div>
+	<!-- end #footer -->
+
+</body>
+</html>

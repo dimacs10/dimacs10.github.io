@@ -20,7 +20,6 @@ Released   : 20100328
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 
-
 <body>
 <div id="wrapper">
 		<div id="header">
@@ -39,7 +38,7 @@ Released   : 20100328
 
 	<div id="menu">
 		<ul>
-          <li class="current_page_item"> 
+          <li>
 		    <a href="index.shtml">Home</a> </li>
 		  <li>
 		    <a href="participation.shtml">Participation</a> </li>
@@ -49,7 +48,7 @@ Released   : 20100328
             <a href="downloads.shtml">Downloads</a> </li>
           <li>
             <a href="submission.shtml">Submission</a> </li>
-          <li>
+          <li class="current_page_item"> 
             <a href="workshop.shtml">Workshop</a> </li>
           <li>
             <a href="organization.shtml">Organization</a> </li>
@@ -63,135 +62,113 @@ Released   : 20100328
 	<div id="page">
 	<div id="page-bgtop">
 	<div id="page-bgbtm">
-		<div id="content">	
-             <div class="post">
-                <h2 class="title"></h2>
+		<div id="content">
+              <div class="post">
+                <h2 class="title">Workshop</h2>
                 <div class="entry">
 				<p>
-				As stated on their <a href="http://dimacs.rutgers.edu/Challenges/">main website</a>, 
-				the "DIMACS Implementation Challenges address 
-				questions of determining realistic algorithm performance where worst case analysis is overly
-				pessimistic and probabilistic models are too unrealistic: experimentation can provide guides 
-				to realistic algorithm performance where analysis fails." 
+				The workshop will provide a forum for researchers to present their work on the
+				design, implementation and experimental evaluation of algorithms and data structures 
+				for graph partitioning and graph clustering in the context of the Challenge.
 				</p>
 				<p>
-				For the 10th DIMACS Implementation Challenge, the two related problems of graph partitioning 
-				and graph clustering were chosen. Graph partitioning and graph clustering are among the
-				aforementioned questions or problem areas where theoretical and practical results deviate 
-				significantly from each other, so that experimental outcomes are of particular interest.		
+				The workshop is scheduled for February 13-14, 2012 in the
+				<a href="http://maps.google.com/maps?q=33.776967,-84.39575&ll=33.776722,-84.393454&spn=0.016873,0.033023&sll=33.779566,-84.397852&sspn=0.018549,0.032015&num=1&vpsrc=6&t=m&z=16">Klaus Advanced Computing Building</a>
+				of <a href="http://www.gatech.edu">
+				Georgia Institute of Technology</a> in Atlanta, Georgia, USA.
+				</p>
+				<h3>Registration</h3>
+				<p>
+				<b>New: </b>The <a href="http://dimacs.rutgers.edu/Workshops/Challenge10/">workshop page at DIMACS</a>
+				has information about the registration process (follow the registration form link).
+				Please note that, in order to qualify for travel support, one important requirement is to use a US flag carrier.
+				You can find some technical details on the according
+				<a href="http://dimacs.rutgers.edu/Applications/Part-reimbursement.html">DIMACS reimbursement webpage</a>.			
+				</p>
+			 	<h3><a href="program.shtml">Program</a></h3>
+			 	<p>
+                More details at the <a href="http://dimacs.rutgers.edu/Workshops/Challenge10/program.html">
+                DIMACS website</a> (includes links to abstracts) or at <b>our <a href="program.shtml">program page</a></b>
+                (includes links to the final workshop versions of the presented papers).
+			 	<h4>Monday, Feb 13:</h4>
+			 	</p>
+			 	<p>
+			 	<ul>
+			 	<li>08:30am: Breakfast</li>
+			 	<li>08:45am: Registration</li>
+				<li>09:15am: Welcome</li>
+				<li>09:30am: Session 1 (3 talks)</li>
+				<li>10:45am: Coffee break</li>
+				<li>11:15am: Session 2 (3 talks)</li>
+				<li>12:30pm: Lunch break</li>
+				<li>02:00pm: Session 3 (3 talks)</li>
+				<li>03:15pm: Coffee break</li>
+				<li>03:45pm: Session 4 (3 talks)</li>
+				<li>05:00pm: Break</li>
+				<li>05:10pm: Session 5 (2 talks)</li>
+				<li>06:00pm: End of technical part</li>
+				<li>07:30pm: Workshop dinner at <a href="http://steelatlanta.com/">STEEL Restaurant &amp; Lounge</a></li>
+			 	</ul>
+				</p>
+				<h4>Tuesday, Feb 14:</h4>
+				<p>
+			 	<ul>
+			 	<li>08:30am: Breakfast</li>
+			 	<li>09:00am: Keynote</li>
+				<li>09:30am: Session 6 (2 talks)</li>
+				<li>10:20am: Coffee break</li>
+				<li>10:45am: Session 7 (3 talks)</li>
+				<li>12:00pm: Break (Grab &amp; Go lunch)</li>
+				<li>12:15pm: Challenge results</li>
+				<li>01:00pm: Summary</li>
+				<li>01:15pm: Expected end of workshop</li>
+			 	</ul>				
+				</p>
+                </div>
+            </div>
+			<div class="post">
+				<h2 class="title">About Atlanta</h2>
+                <div class="entry">
+				<h3>Hotels</h3>
+				<p>
+				Georgia Institute of Technology (or GeorgiaTech for short) is located in the Midtown area of Atlanta.
+				Unfortunately, the <a href="http://www.gatechhotel.com">GeorgiaTech Hotel and Conference Center</a> is sold out during the workshop dates.
+				As announced on the mailing list, we have made special arrangements with the following hotels:
+				<ul>
+				<li>
+				<a href="http://www.marriott.com/hotels/travel/atlbd-renaissance-atlanta-midtown-hotel/">
+				Renaissance Atlanta Midtown Hotel</a>, 866 W. Peachtree Street NW, Atlanta, Georgia 30308 USA, phone: 1-800-716-6009
+				</li>
+				<li>
+				<a href="http://hamptoninn.hilton.com/en/hp/hotels/index.jhtml?ctyhocn=ATLGTHX">
+				Hampton Inn Atlanta-Georgia Tech-Downtown</a>, 244 North Avenue, N.W., Atlanta, Georgia, USA 30313, phone: 1-800-HAMPTON
+				</li>
+				<li>
+				<a href="http://www.marriott.com/hotels/travel/atlmn-courtyard-atlanta-midtown-georgia-tech/">Courtyard Atlanta Midtown/Georgia Tech</a>,
+				1132 Techwood Drive * Atlanta, Georgia 30318 USA, phone: 1-888-236-2427
+				</li>
+				</ul>
+				When you call to make a reservation, please let the agent know that you are a Georgia Tech guest and would like the Georgia Tech discounted rate.
+				</p>
+				<p>
+				There are <a href="http://maps.google.com/maps?q=Hotels+in+Midtown,+Atlanta,+GA,+United+States&hl=de&ll=33.777078,-84.388647&spn=0.033745,0.066047&sll=37.0625,-95.677068&sspn=64.497063,135.263672&vpsrc=6&t=m&z=15">
+				a few other options</a> in walking distance as well.
+				</p>
+				<h3>Local Transit</h3>
+				<p><strong>The Atlanta Airport Shuttle Service</strong> - <a href="http://www.taass.net/">www.taass.net</a> <br>
+				Shuttle Fares: From airport to downtown is currently (Sep 2011) $16.50 one-way plus $2 per each additional person.
+				Round-trip is currently $29.</p>
+				<p><strong>MARTA &ndash; Metro Rapid Transit - </strong><a href="http://www.itsmarta.com/">www.itsmarta.com</a><br>
+				Metro Fares: Single one-way is $2.50 (plus a small ticket fee) including all transfers. Take the red or gold line to
+				<i>Midtown</i> station.  See the MARTA website for routes &amp; schedules.
+				From <i>Midtown</i> station you can walk 10-15 minutes to the GeorgiaTech campus or transfer to the free
+				<a href="http://pts.gatech.edu/ride/routes_schedules/Pages/TechTrolley.aspx">GeorgiaTech trolley</a>.				
+				<br></p>
+				<p><strong>Atlanta Taxi Info<br>
+				</strong>Midtown to Airport: approx. $35 plus $2 for each additional passenger.</p>
 				</p>
 				</div>
-			 </div>
-
-              <div class="post">
-                <h2 class="title">Book Publication</h2>
-                <div class="entry">
-                <p>
-				Most contributions to the 10th Challenge can be found in the book (to be) published by AMS in Q1/2013
-				(see cover on the right):
-				</p>
-				<p>
-				David A. Bader, Henning Meyerhenke, Peter Sanders, Dorothea Wagner (eds.):
-				Graph Partitioning and Graph Clustering. 10th DIMACS Implementation Challenge
-				Workshop. February 13-14, 2012. Georgia Institute of Technology, Atlanta, GA.
-				Contemporary Mathematics 588. 
-				American Mathematical Society and Center for Discrete Mathematics and Theoretical
-				Computer Science, 2013.								
-				</p>								
-                </div>
-              </div>
-
-              <div class="post">
-                <h2 class="title">Problem Motivation</h2>
-                <div class="entry">
-				<p>
-				Graph partitioning and graph clustering are ubiquitous subtasks in many application areas.
-				Generally speaking, both techniques aim at the identification of vertex subsets with many 
-				internal and few external edges.
-				To name only a few, problems addressed by graph partitioning and graph clustering algorithms are:
-				<ul>
-				<li>
-				What are the communities within an (online) social network?
-				</li>
-				<li>
-				How do I speed up a numerical simulation by mapping it efficiently onto a parallel computer?
-				</li>
-				<li>
-				How must components be organized on a computer chip such that they can communicate efficiently
-				with each other?
-				</li>
-				<li>
-				What are the segments of a digital image?
-				</li>
-				<li>
-				Which functions are certain genes (most likely) responsible for?
-				</li>				
-				</ul> 
-				</p>				
-                </div>
-              </div>
-
-              <div class="post">
-                <h2 class="title">Challenge Goals</h2>
-                <div class="entry">
-				<p>
-				<ul>
-				<li>
-				One goal of this Challenge is to create a reproducible picture of the state-of-the-art in the area of graph
-				partitioning (GP) and graph clustering (GC) algorithms. To this end we are identifying a standard set of benchmark
-				instances and generators.
-				</li>
-				<li>
-				Moreover, after initiating a discussion with the community, we would like to establish the most appropriate problem
-				formulations and objective functions for a variety of applications. 
-				</li>
-				<li>
-				Another goal is to enable current researchers to compare their codes with each other, in hopes of identifying
-				the most effective algorithmic innovations that have been proposed.
-				</li>
-				<li>				
-				The final goal is to publish proceedings containing results presented at the Challenge workshop, and a book
-				containing the best of the proceedings papers.
-				</li>
-				</ul> 
-				</p>
-                </div>
-              </div>
-
-              <div class="post">
-                <h2 class="title">Problems Addressed</h2>
-                <div class="entry">
-				<p>
-				The precise problem formulations can be found in the document describing
-				<a href="data/dimacs10-rules.pdf">scoring rules and objective functions</a>.
-				The descriptions below served as a starting point for the problem definitions.						
-				<ul>
-  				  <li><b>Graph partitioning:</b>
-				  <p>
-    				The most common formulation of the graph partitioning problem for an undirected graph
-    				G = (V,E) asks for a division of V into k pairwise disjoint subsets (partitions) such that
-    				all partitions are of approximately equal size and the edge-cut, i.e., the total number of
-    				edges having their incident nodes in different subdomains, is minimized. The problem
-    				is known to be NP-hard. Other important variations of this problem exist. They are often
-					subsumed under the term graph partitioning as well. In the Challenge we consider two
-					objective functions, see the <a href="data/dimacs10-rules.pdf">scoring rules and objective functions</a>.
-    			  </p>
-				  </li>
-				  <li><b>Graph clustering:</b>
-				  <p>
-				  Clustering is an important tool for investigating the structural properties of data.
-				  Generally speaking, clustering refers to the grouping of objects such that objects in the
-				  same cluster are more similar to each other than to objects of different clusters. The
-				  similarity measure depends on the underlying application. Clustering graphs usually refers
-				  to the identification of vertex subsets (clusters) that have significantly more internal
-				  edges (to vertices of the same cluster) than external ones (to vertices of another cluster).
-				  </p>
-				  </li>
-				</ul>
-				</p> 
-                </div>
-              </div>
-
+			</div>
 		<div style="clear: both;">&nbsp;</div>
 		</div>
 		<!-- end #content -->

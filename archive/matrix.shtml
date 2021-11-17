@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Deviation  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100328
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="DIMACS, implementation challenge, graph partitioning, graph clustering" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>10th DIMACS Implementation Challenge
+</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="wrapper">
+		<div id="header">
+		<div id="logo">
+			<h3 align="center"><a href="http://www.cc.gatech.edu/dimacs10/index.shtml">&mdash; 10th DIMACS Implementation Challenge -
+			Graph Partitioning and Graph Clustering &mdash;</a></h3>
+			<p align="center">
+			Co-sponsored by <a href="http://dimacs.rutgers.edu/" title="DIMACS">DIMACS</a> and 
+			by the <a href="http://ccicada.rutgers.edu/">Command, Control, and Interoperability Center for Advanced Data Analysis (CCICADA)</a>,<br>
+			<a href="http://www.pnl.gov/">Pacific Northwest National Laboratory</a>, <a href="http://www.sandia.gov/">Sandia National Laboratories</a>,
+			<a href="http://www.intel.com">Intel Corporation</a> and <a href="http://www.dfg.de/en/">Deutsche Forschungsgemeinschaft (DFG)</a>
+			</p>
+		</div>
+	</div>
+	<!-- end #header -->
+
+		<div id="menu">
+		<ul>
+          <li> 
+            <a href="../index.shtml">Home</a> </li>
+		  <li>
+		    <a href="../participation.shtml">Participation</a> </li>
+          <li>
+            <a href="../schedule.shtml">Schedule</a> </li>
+          <li class="current_page_item">
+            <a href="../downloads.shtml">Downloads</a> </li>
+          <li>
+            <a href="../submission.shtml">Submission</a> </li>
+          <li>
+            <a href="../workshop.shtml">Workshop</a> </li>
+          <li>
+            <a href="../organization.shtml">Organization</a> </li>
+          <li>
+            <a href="../mailing.shtml">Contact</a> </li>
+          <li>
+            <a href="../links.shtml">Links</a> </li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+
+	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+              <div class="post">
+                <h2 class="title">Sparse Matrices</h2>
+                <div class="entry">
+				<p>
+				These graphs have been taken from the
+				<a href="http://www.cise.ufl.edu/research/sparse/matrices/">
+				Florida Sparse Matrix Collection</a> maintained by Tim Davis and Yifan Hu.
+				They have been converted into the Challenge's graph format.
+				</p>
+				<p>
+				All files are compressed with bzip2.
+				</p>
+				<h4>Graph Files</h4>
+				<p>
+				  <table border="0"  width="95%" class="tabular" cellspacing="3" cellpadding="7">
+				  <colgroup>
+					<col width="225">
+					<col width="225">
+					<col width="50">
+					<col width="50">
+				  </colgroup>
+                  <tr><!-- Row 1 -->
+                     <td><b>Graph</b></td><!-- Col 1 -->
+                     <td align="right"><b><i>n</i></b></td><!-- Col 2 -->
+                     <td align="right"><b><i>m</i></b></td><!-- Col 3 -->
+                  </tr>
+					 <tr>
+					<td><b><a href="data/matrix/af_shell10.graph.bz2"> af_shell10.graph </a></b></td>
+					<td align="right"><b><i> 1,508,065 </i></b> </td>
+					<td align="right"> <b><i>25,582,130 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/af_shell9.graph.bz2"> af_shell9.graph </a></b></td>
+					<td align="right"><b><i> 504,855 </i></b> </td>
+					<td align="right"> <b><i>8,542,010 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/audikw1.graph.bz2"> audikw1.graph </a></b></td>
+					<td align="right"><b><i> 943,695 </i></b> </td>
+					<td align="right"> <b><i>38,354,076 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/cage15.graph.bz2"> cage15.graph </a></b></td>
+					<td align="right"><b><i> 5,154,859 </i></b> </td>
+					<td align="right"> <b><i>94,044,692 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/ecology1.graph.bz2"> ecology1.graph </a></b></td>
+					<td align="right"><b><i> 1,000,000 </i></b> </td>
+					<td align="right"> <b><i>1,998,000 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/ecology2.graph.bz2"> ecology2.graph </a></b></td>
+					<td align="right"><b><i> 999,999 </i></b> </td>
+					<td align="right"> <b><i>1,997,996 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/G3_circuit.graph.bz2"> G3_circuit.graph </a></b></td>
+					<td align="right"><b><i> 1,585,478 </i></b> </td>
+					<td align="right"> <b><i>3,037,674 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/kkt_power.graph.bz2"> kkt_power.graph </a></b></td>
+					<td align="right"><b><i> 2,063,494 </i></b> </td>
+					<td align="right"> <b><i>6,482,320 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/ldoor.graph.bz2"> ldoor.graph </a></b></td>
+					<td align="right"><b><i> 952,203 </i></b> </td>
+					<td align="right"> <b><i>22,785,136 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/nlpkkt120.graph.bz2"> nlpkkt120.graph </a></b></td>
+					<td align="right"><b><i> 3,542,400 </i></b> </td>
+					<td align="right"> <b><i>46,651,696 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/nlpkkt160.graph.bz2"> nlpkkt160.graph </a></b></td>
+					<td align="right"><b><i> 8,345,600 </i></b> </td>
+					<td align="right"> <b><i>110,586,256 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/nlpkkt200.graph.bz2"> nlpkkt200.graph </a></b></td>
+					<td align="right"><b><i> 16,240,000 </i></b> </td>
+					<td align="right"> <b><i>215,992,816 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/nlpkkt240.graph.bz2"> nlpkkt240.graph </a></b></td>
+					<td align="right"><b><i> 27,993,600 </i></b> </td>
+					<td align="right"> <b><i>373,239,376 </i> </b> </td>
+					</tr>
+
+					<tr>
+					<td><b><a href="data/matrix/thermal2.graph.bz2"> thermal2.graph </a></b></td>
+					<td align="right"><b><i> 1,227,087 </i></b> </td>
+					<td align="right"> <b><i>3,676,134 </i> </b> </td>
+					</tr> 
+                  </table>			
+				</p>
+                </div>
+              </div>
+		<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+				<div id="sidebar">
+        </div>
+        <!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+</div>
+		<div id="footer">
+		<p>Website created and <a href="../sidebar.html"></a>maintained by <a href="http://www.cc.gatech.edu/~hmeyerhe" target="_blank">Henning Meyerhenke</a>.
+		   Design based on the template <a target=_blank href="http://www.freecsstemplates.org/preview/deviation/"><i>Deviation</i></a> 
+		   by <a target=_blank href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+		</p>
+	</div>
+	<!-- end #footer -->
+
+</body>
+</html>

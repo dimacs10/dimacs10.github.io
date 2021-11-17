@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+    <meta content="text/html; charset=unicode" http-equiv="Content-Type"/><head>
+<meta name="keywords" content="DIMACS, implementation challenge, graph partitioning, graph clustering" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>10th DIMACS Implementation Challenge
+</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)"/></head>
+  <body>
+    <div id="wrapper">
+		<div id="header">
+		<div id="logo">
+			<h3 align="center"><a href="http://www.cc.gatech.edu/dimacs10/index.shtml">&mdash; 10th DIMACS Implementation Challenge -
+			Graph Partitioning and Graph Clustering &mdash;</a></h3>
+			<p align="center">
+			Co-sponsored by <a href="http://dimacs.rutgers.edu/" title="DIMACS">DIMACS</a> and 
+			by the <a href="http://ccicada.rutgers.edu/">Command, Control, and Interoperability Center for Advanced Data Analysis (CCICADA)</a>,<br>
+			<a href="http://www.pnl.gov/">Pacific Northwest National Laboratory</a>, <a href="http://www.sandia.gov/">Sandia National Laboratories</a>,
+			<a href="http://www.intel.com">Intel Corporation</a> and <a href="http://www.dfg.de/en/">Deutsche Forschungsgemeinschaft (DFG)</a>
+			</p>
+		</div>
+	</div>
+	<!-- end #header -->
+
+	  <div id="menu">
+        <ul>
+          <li>
+            <a href="index.shtml">Home</a> </li>
+          <li>
+            <a href="participation.shtml">Participation</a> </li>
+          <li>
+            <a href="schedule.shtml">Schedule</a> </li>
+          <li>
+            <a href="downloads.shtml">Downloads</a> </li>
+          <li class="current_page_item">
+            <a href="workshop.shtml">Submission</a> </li>
+          <li>
+            <a href="workshop.shtml">Workshop</a> </li>
+          <li>
+            <a href="organization.shtml">Organization</a> </li>
+          <li>
+            <a href="mailing.shtml">Contact</a> </li>
+          <li>
+            <a href="links.shtml">Links</a> </li>
+        </ul>
+      </div><!-- end #menu -->
+	  <div id="page">
+        <div id="page-bgtop">
+          <div id="page-bgbtm">
+            <div id="content">
+			
+             <div class="post">
+                <h2 class="title">Call for Papers and Submission Rules</h2>
+                <div class="entry">
+					<table cellspacing="15" cellpadding="6" id="call_table" >
+					  <colgroup>
+						<col width="180">
+					  </colgroup>
+					<tr>
+					<td> 
+					<a href="data/call-for-papers.pdf">
+					<img border="0" src="images/pdf_icon.jpg" width="40" height="40" alt="call-for-papers.pdf" /></a>
+					</td>	  
+					<td> 
+					<a href="data/submission-rules.pdf">
+					<img border="0" src="images/pdf_icon.jpg" width="40" height="40" alt="submission-rules.pdf" /></a>
+					</td>	  
+					</tr>
+					
+					<td>
+					Call for Papers
+					</td>	  
+					<td>
+					How to submit solutions
+					</td>	  
+					</tr>
+					
+					</table>
+				</div>
+			 </div>
+			
+              <div class="post">
+                <h2 class="title">Solution Submission Process</h2>
+                <div class="entry">
+				<p>
+                The process of submitting solutions is explained in a 
+                <a href="data/submission-rules.pdf">separate file</a>
+                also shown above with a PDF symbol.
+                </p>
+                
+                <h3 class="title">Deadlines</h3>
+                <ul>
+                <li>Jan 23: Publication of challenge instances</li>
+                <li>Feb 2: Deadline for registration of solvers on 
+                <a href="https://www.easychair.org/account/signin.cgi?conf=dimacs10">
+                EasyChair</a></li>
+                <li>Feb 5: Deadline for submission of solutions</li>
+                </ul>
+
+                <h3 class="title"><a href="data/graphs-for-partitioning.txt">
+                    Partitioning Challenge Instances</a></h3>
+                    <ul>
+                        <li>Click on the headline to get the file with the instances for nearly balanced partitioning according to the objective
+                            functions edge cut and communication volume.
+                        </li>
+                        <li>
+                            Each line is an instance, comprised of a graph and followed by the
+                            number of parts it needs to be partitioned into.
+                        </li>
+                        <li>
+                            We have 18 graphs with 5 different values of k each, which gives a
+                            total of 90 combinations for each objective function.
+                        </li>
+                    </ul>
+                    
+                    
+                    <h3 class="title"><a href="data/graphs-for-clustering.txt">
+                        Clustering Challenge Instances</a></h3>
+                    <ul>
+                        <li>Click on the headline to get the file with the instances for
+                        clustering according to modularity and the so-called mix challenge.
+                        </li>
+                        <li>
+                            Each line lists one graph.
+                        </li>
+                        <li>
+                            There are 30 graphs to be clustered (the same 30 for MOdularity and MIx).
+                        </li>
+                    </ul>
+                    
+                <h3 class="title">Benchmark</h3>
+                <p>
+                    The code from the 9th DIMACS Implementation Challenge serves us as benchmark.
+                You can get the code from the
+                <a href="http://www.dis.uniroma1.it/~challenge9/code/ch9-1.1.tar.gz">original website</a>
+                or (at least for the next few weeks)
+                <a href="data/ch9-1.1.tar.gz">from ours</a>.
+                    </p>
+                </div>
+              </div>
+
+              <div class="post">
+                <h2 class="title">Paper Submission Process</h2>
+                <div class="entry">
+                <p>
+                <b>NEW:</b> Please submit the updated final workshop version of your paper
+                to the organizers' mailing list by February 7, 2012, 11:59pm EST.
+                </p>
+				<p>
+				The submissions are expected to address at least one of the Challenge
+				problems <b>or variations thereof</b> and to present algorithmic details as well as
+				experimental results using (a meaningful subset of) the 
+				<a href="downloads.shtml">Challenge
+				testbed</a>.
+				</p><p>
+				Papers must be formatted in LaTeX, using the 
+				<a href="ftp://ftp.springer.de/pub/tex/latex/llncs/latex2e/llncs2e.zip">style file</a>
+				distributed by <a href="http://www.springer.com">Springer</a> for the
+				<a href="http://www.springer.com/computer/lncs/">Lecture Notes in Computer Science (LNCS)</a>.
+				The maximum length of the paper (including references, but excluding an optional appendix) is 15 pages.
+				</p><p>
+				Papers must be submitted electronically in PDF format by sending them via email to the organizers' mailing list
+				dimacs-challenge-orga (at) cc.gatech.edu before the <b>submission deadline</b>, which is
+				<b><del>October 21st</del> November 4th, 2011 (11:59pm EDT)</b>.
+				Since only the organizers are members of this list, participants will receive a moderator approval email, which can serve
+				as submission confirmation.
+				</div>
+			  </div>
+              <div style="CLEAR: both"></div>
+            </div><!-- end #content -->
+					<div id="sidebar">
+        <img src="conm-588-bader-cov1.jpg" alt="Book cover of 10th Challenge" width="100%" style="margin-bottom:15px"/>
+        <ul>
+          <li>
+          	<h2>News</h2>
+          	<ul>
+		<li><b>Jan 23, 2015:</b> A new paper has been published in the Encyclopedia of Social Network Analysis and Mining.</li>
+        	<li><b>Feb 18, 2013:</b> The Challenge book will be published by AMS soon.</li>
+		<li><b>Mar 31, 2012:</b> The <a href="results/">challenge results</a> are online.</li>
+                <li><b>Mar 30, 2012:</b> Archive update: New graph category <a href="archive/star-mixtures.shtml">Star Mixtures</a>.</li>
+                <li><b>Feb 24, 2012:</b> Most <a href="program.shtml">
+                talk slides</a> are available.</li>
+                <li><b>Feb 10, 2012:</b> <a href="program.shtml">Final workshop program</a> online!</li>
+                <li><b>Jan 23, 2012:</b> The challenge instances have been announced. Happy computing!</li>
+          		<li><b>Dec 27, 2011:</b> Tim Mattson (Intel) has joined the advisory board. Welcome, Tim!</li>
+				<li><b>Dec 1 and 12, 2011:</b> Updated <a href="workshop.shtml">workshop registration</a> information, new graphs in category <a href="archive/numerical.shtml">numerical</a>!</li>
+				<li><b>Nov 7, 2011:</b> Thank you for your submissions! New details on <a href="workshop.shtml">workshop times</a> available!</li>
+				<li><b>Sep  21, 2011:</b> Updated workshop and venue information.</li>
+				<li><b>Sep  12, 2011:</b> Archive update: New graph category <a href="archive/redistrict.shtml">Redistricting</a>.</li>
+				<li><b>Jul  26, 2011:</b> Archive update: New graph category <a href="archive/er.shtml">Erd&ouml;s-R&eacute;nyi</a>, additions to category Clustering
+				(see the <a href="archive/clustering.shtml">description page</a> for details). The new archive size is
+				about 35GB.
+				</li>			
+				<li><b>Jul   7, 2011:</b> Minor update of <a href="data/dimacs10-rules.pdf">objective functions</a> 
+				  to handle some pathological cases.</li>
+				<li><b>Jun  28, 2011:</b> The <a href="data/call-for-papers.pdf">call for papers</a> is online.</li>
+				<li><b>Apr  15, 2011:</b> The <a href="data/dimacs10-rules.pdf">scoring rules and objective 
+				  functions</a> are now available!</li>
+				<li><b>Apr  1, 2011:</b> Maintenance in the testbed archive nearly completed. Some additions
+				  and descriptions are still expected. Changes of and additions to the testbed data
+				  from this point on will be announced on the mailing list.</li>
+				<li><b>Mar 14, 2011:</b> A few changes in the directory structure and file names have been made
+				  to improve consistency. All testbed files (approx. 20GB) are now downloadable with <i>wget -r -np http://www.cc.gatech.edu/dimacs10/archive/data/</i>.
+				  Note that the webserver creates a few additional HTML files (mostly directory listings).</li>
+				<li><b>Feb 1, 2011:</b> Official Challenge launch!</li>
+          		<li><b>Jan 7, 2011:</b> The website is published at its permanent location.</li>
+          	</ul>
+          </li>
+          <li>
+          	<h2>Previous Challenges</h2>
+          	<ul>
+          		<li><a target=_blank href="http://www.dis.uniroma1.it/~challenge9/index.shtml">The Shortest Path Problem (2006)</a></li>
+         		<li><a target=_blank href="http://www.research.att.com/~dsj/chtsp/">Traveling Salesman Problem (2001)</a></li>
+         		<li><a target=_blank href="http://dimacs.rutgers.edu/Challenges/">Full list</a></li>
+          	</ul>
+          </li>
+        </ul>
+        </div>
+        <!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+</div>
+        </div>
+      </div><!-- end #page -->
+	</div>
+		<div id="footer">
+		<p>Website created and <a href="../sidebar.html"></a>maintained by <a href="http://www.cc.gatech.edu/~hmeyerhe" target="_blank">Henning Meyerhenke</a>.
+		   Design based on the template <a target=_blank href="http://www.freecsstemplates.org/preview/deviation/"><i>Deviation</i></a> 
+		   by <a target=_blank href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+		</p>
+	</div>
+	<!-- end #footer -->
+
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Deviation  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100328
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="DIMACS, implementation challenge, graph partitioning, graph clustering" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>10th DIMACS Implementation Challenge
+</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="wrapper">
+		<div id="header">
+		<div id="logo">
+			<h3 align="center"><a href="http://www.cc.gatech.edu/dimacs10/index.shtml">&mdash; 10th DIMACS Implementation Challenge -
+			Graph Partitioning and Graph Clustering &mdash;</a></h3>
+			<p align="center">
+			Co-sponsored by <a href="http://dimacs.rutgers.edu/" title="DIMACS">DIMACS</a> and 
+			by the <a href="http://ccicada.rutgers.edu/">Command, Control, and Interoperability Center for Advanced Data Analysis (CCICADA)</a>,<br>
+			<a href="http://www.pnl.gov/">Pacific Northwest National Laboratory</a>, <a href="http://www.sandia.gov/">Sandia National Laboratories</a>,
+			<a href="http://www.intel.com">Intel Corporation</a> and <a href="http://www.dfg.de/en/">Deutsche Forschungsgemeinschaft (DFG)</a>
+			</p>
+		</div>
+	</div>
+	<!-- end #header -->
+
+		<div id="menu">
+		<ul>
+          <li> 
+            <a href="../index.shtml">Home</a> </li>
+		  <li>
+		    <a href="../participation.shtml">Participation</a> </li>
+          <li>
+            <a href="../schedule.shtml">Schedule</a> </li>
+          <li class="current_page_item">
+            <a href="../downloads.shtml">Downloads</a> </li>
+          <li>
+            <a href="../submission.shtml">Submission</a> </li>
+          <li>
+            <a href="../workshop.shtml">Workshop</a> </li>
+          <li>
+            <a href="../organization.shtml">Organization</a> </li>
+          <li>
+            <a href="../mailing.shtml">Contact</a> </li>
+          <li>
+            <a href="../links.shtml">Links</a> </li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+
+	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+              <div class="post">
+                <h2 class="title">Random Geometric Graphs</h2>
+                <div class="entry">
+				<p>
+				rggX is a random geometric graph with <i>2^X</i> vertices. Each vertex is a random
+				point in the unit square and edges connect vertices whose Euclidean distance 
+				is below <i>0.55 ln n/n</i>. This threshold was choosen in order to ensure that the 
+				graph is almost connected. 
+				</p>
+				<p>
+				Reference: M. Holtgrewe, P. Sanders, and C. Schulz. Engineering a Scalable High Quality Graph Partitioner.
+24th IEEE International Parallal and Distributed Processing Symposium, 2010.
+				</p>
+				<h4>Graph Files</h4>		
+				<p>
+				All files are compressed using bzip2. The number of vertices are all powers of two. 
+				The file names are marked by the base-2 logarithm of the graph sizes.
+				</p>
+				  <table border="0"  width="95%" class="tabular" cellspacing="3" cellpadding="7">
+				  <colgroup>
+					<col width="225">
+					<col width="225">
+					<col width="75">
+					<col width="75">
+				  </colgroup>
+                  <tr><!-- Row 1 -->
+                     <td><b>Graph</b></td><!-- Col 1 -->
+                     <td><b>Coordinates</b></td><!-- Col 2 -->
+                     <td align="right"><b><i>log_2 (n)</i></b></td><!-- Col 3 -->
+                     <td align="right"><b><i>m</i></b></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/random/rgg_n_2_15_s0.graph.bz2">rgg_n_2_15_s0.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/random/rgg_n_2_15_s0.xyz.bz2">rgg_n_2_15_s0.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">15</td><!-- Col 3 -->
+                     <td align="right"></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/random/rgg_n_2_16_s0.graph.bz2">rgg_n_2_16_s0.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/random/rgg_n_2_16_s0.xyz.bz2">rgg_n_2_16_s0.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">16</td><!-- Col 3 -->
+                     <td align="right"></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/random/rgg_n_2_17_s0.graph.bz2">rgg_n_2_17_s0.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/random/rgg_n_2_17_s0.xyz.bz2">rgg_n_2_17_s0.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">17</td><!-- Col 3 -->
+                     <td align="right"></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/random/rgg_n_2_18_s0.graph.bz2">rgg_n_2_18_s0.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/random/rgg_n_2_18_s0.xyz.bz2">rgg_n_2_18_s0.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">18</td><!-- Col 3 -->
+                     <td align="right"></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/random/rgg_n_2_19_s0.graph.bz2">rgg_n_2_19_s0.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/random/rgg_n_2_19_s0.xyz.bz2">rgg_n_2_19_s0.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">19</td><!-- Col 3 -->
+                     <td align="right"></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/random/rgg_n_2_20_s0.graph.bz2">rgg_n_2_20_s0.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/random/rgg_n_2_20_s0.xyz.bz2">rgg_n_2_20_s0.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">20</td><!-- Col 3 -->
+                     <td align="right"></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/random/rgg_n_2_21_s0.graph.bz2">rgg_n_2_21_s0.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/random/rgg_n_2_21_s0.xyz.bz2">rgg_n_2_21_s0.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">21</td><!-- Col 3 -->
+                     <td align="right"></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/random/rgg_n_2_22_s0.graph.bz2">rgg_n_2_22_s0.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/random/rgg_n_2_22_s0.xyz.bz2">rgg_n_2_22_s0.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">22</td><!-- Col 3 -->
+                     <td align="right"></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/random/rgg_n_2_23_s0.graph.bz2">rgg_n_2_23_s0.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/random/rgg_n_2_23_s0.xyz.bz2">rgg_n_2_23_s0.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">23</td><!-- Col 3 -->
+                     <td align="right"></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/random/rgg_n_2_24_s0.graph.bz2">rgg_n_2_24_s0.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/random/rgg_n_2_24_s0.xyz.bz2">rgg_n_2_24_s0.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">24</td><!-- Col 3 -->
+                     <td align="right"></td><!-- Col 4 -->
+                  </tr>
+                 </table>			
+
+                </div>
+              </div>
+		<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+				<div id="sidebar">
+        </div>
+        <!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+</div>
+		<div id="footer">
+		<p>Website created and <a href="../sidebar.html"></a>maintained by <a href="http://www.cc.gatech.edu/~hmeyerhe" target="_blank">Henning Meyerhenke</a>.
+		   Design based on the template <a target=_blank href="http://www.freecsstemplates.org/preview/deviation/"><i>Deviation</i></a> 
+		   by <a target=_blank href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+		</p>
+	</div>
+	<!-- end #footer -->
+
+</body>
+</html>

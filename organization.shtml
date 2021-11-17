@@ -20,7 +20,6 @@ Released   : 20100328
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 
-
 <body>
 <div id="wrapper">
 		<div id="header">
@@ -39,7 +38,7 @@ Released   : 20100328
 
 	<div id="menu">
 		<ul>
-          <li class="current_page_item"> 
+          <li>
 		    <a href="index.shtml">Home</a> </li>
 		  <li>
 		    <a href="participation.shtml">Participation</a> </li>
@@ -51,7 +50,7 @@ Released   : 20100328
             <a href="submission.shtml">Submission</a> </li>
           <li>
             <a href="workshop.shtml">Workshop</a> </li>
-          <li>
+          <li class="current_page_item"> 
             <a href="organization.shtml">Organization</a> </li>
           <li>
             <a href="mailing.shtml">Contact</a> </li>
@@ -63,135 +62,29 @@ Released   : 20100328
 	<div id="page">
 	<div id="page-bgtop">
 	<div id="page-bgbtm">
-		<div id="content">	
-             <div class="post">
-                <h2 class="title"></h2>
-                <div class="entry">
-				<p>
-				As stated on their <a href="http://dimacs.rutgers.edu/Challenges/">main website</a>, 
-				the "DIMACS Implementation Challenges address 
-				questions of determining realistic algorithm performance where worst case analysis is overly
-				pessimistic and probabilistic models are too unrealistic: experimentation can provide guides 
-				to realistic algorithm performance where analysis fails." 
-				</p>
-				<p>
-				For the 10th DIMACS Implementation Challenge, the two related problems of graph partitioning 
-				and graph clustering were chosen. Graph partitioning and graph clustering are among the
-				aforementioned questions or problem areas where theoretical and practical results deviate 
-				significantly from each other, so that experimental outcomes are of particular interest.		
-				</p>
-				</div>
-			 </div>
-
+		<div id="content">
               <div class="post">
-                <h2 class="title">Book Publication</h2>
+                <h2 class="title">Organizers</h2>
                 <div class="entry">
-                <p>
-				Most contributions to the 10th Challenge can be found in the book (to be) published by AMS in Q1/2013
-				(see cover on the right):
-				</p>
-				<p>
-				David A. Bader, Henning Meyerhenke, Peter Sanders, Dorothea Wagner (eds.):
-				Graph Partitioning and Graph Clustering. 10th DIMACS Implementation Challenge
-				Workshop. February 13-14, 2012. Georgia Institute of Technology, Atlanta, GA.
-				Contemporary Mathematics 588. 
-				American Mathematical Society and Center for Discrete Mathematics and Theoretical
-				Computer Science, 2013.								
-				</p>								
-                </div>
-              </div>
-
-              <div class="post">
-                <h2 class="title">Problem Motivation</h2>
-                <div class="entry">
-				<p>
-				Graph partitioning and graph clustering are ubiquitous subtasks in many application areas.
-				Generally speaking, both techniques aim at the identification of vertex subsets with many 
-				internal and few external edges.
-				To name only a few, problems addressed by graph partitioning and graph clustering algorithms are:
 				<ul>
-				<li>
-				What are the communities within an (online) social network?
-				</li>
-				<li>
-				How do I speed up a numerical simulation by mapping it efficiently onto a parallel computer?
-				</li>
-				<li>
-				How must components be organized on a computer chip such that they can communicate efficiently
-				with each other?
-				</li>
-				<li>
-				What are the segments of a digital image?
-				</li>
-				<li>
-				Which functions are certain genes (most likely) responsible for?
-				</li>				
-				</ul> 
-				</p>				
-                </div>
-              </div>
-
-              <div class="post">
-                <h2 class="title">Challenge Goals</h2>
-                <div class="entry">
-				<p>
-				<ul>
-				<li>
-				One goal of this Challenge is to create a reproducible picture of the state-of-the-art in the area of graph
-				partitioning (GP) and graph clustering (GC) algorithms. To this end we are identifying a standard set of benchmark
-				instances and generators.
-				</li>
-				<li>
-				Moreover, after initiating a discussion with the community, we would like to establish the most appropriate problem
-				formulations and objective functions for a variety of applications. 
-				</li>
-				<li>
-				Another goal is to enable current researchers to compare their codes with each other, in hopes of identifying
-				the most effective algorithmic innovations that have been proposed.
-				</li>
-				<li>				
-				The final goal is to publish proceedings containing results presented at the Challenge workshop, and a book
-				containing the best of the proceedings papers.
-				</li>
-				</ul> 
-				</p>
-                </div>
-              </div>
-
-              <div class="post">
-                <h2 class="title">Problems Addressed</h2>
-                <div class="entry">
-				<p>
-				The precise problem formulations can be found in the document describing
-				<a href="data/dimacs10-rules.pdf">scoring rules and objective functions</a>.
-				The descriptions below served as a starting point for the problem definitions.						
-				<ul>
-  				  <li><b>Graph partitioning:</b>
-				  <p>
-    				The most common formulation of the graph partitioning problem for an undirected graph
-    				G = (V,E) asks for a division of V into k pairwise disjoint subsets (partitions) such that
-    				all partitions are of approximately equal size and the edge-cut, i.e., the total number of
-    				edges having their incident nodes in different subdomains, is minimized. The problem
-    				is known to be NP-hard. Other important variations of this problem exist. They are often
-					subsumed under the term graph partitioning as well. In the Challenge we consider two
-					objective functions, see the <a href="data/dimacs10-rules.pdf">scoring rules and objective functions</a>.
-    			  </p>
-				  </li>
-				  <li><b>Graph clustering:</b>
-				  <p>
-				  Clustering is an important tool for investigating the structural properties of data.
-				  Generally speaking, clustering refers to the grouping of objects such that objects in the
-				  same cluster are more similar to each other than to objects of different clusters. The
-				  similarity measure depends on the underlying application. Clustering graphs usually refers
-				  to the identification of vertex subsets (clusters) that have significantly more internal
-				  edges (to vertices of the same cluster) than external ones (to vertices of another cluster).
-				  </p>
-				  </li>
+				  <li><a target=_blank href="http://www.cc.gatech.edu/~bader/">David A. Bader</a>, Georgia Institute of Technology, USA</li>
+				  <li><a target=_blank href="http://parco.iti.kit.edu/henningm/">Henning Meyerhenke</a>, Karlsruhe Institute of Technology, Germany</li>
+				  <li><a target=_blank href="http://algo2.iti.kit.edu/english/sanders.php">Peter Sanders</a>, Karlsruhe Institute of Technology, Germany</li>
+				  <li><a target=_blank href="http://i11www.iti.uni-karlsruhe.de/en/members/dorothea_wagner/index">Dorothea Wagner</a>, Karlsruhe Institute of Technology, Germany</li>
 				</ul>
-				</p> 
+                </div>
+              </div>			  
+              <div class="post">
+                <h2 class="title">Advisory Committee</h2>
+                <div class="entry">
+				<ul>
+				  <li><a href="http://www.sandia.gov/~bahendr/" target="_blank" title="Bruce Hendrickson">Bruce Hendrickson</a>, Sandia National Laboratories, USA</li>
+				  <li><a href="http://www2.research.att.com/~dsj/" target="_blank" title="David S. Johnson">David S. Johnson</a>, AT&amp;T Labs - Research, USA</li>
+				  <li><a href="http://www.timmattson.com/work.shtml/" target="_blank" title="Timothy G. Mattson">Timothy G. Mattson</a>, Intel Corp, Computational Software Laboratory, USA</li>				  
+				  <li><a href="http://staffweb.cms.gre.ac.uk/~c.walshaw/" target="_blank" title="Chris Walshaw">Chris Walshaw</a>, University of Greenwich, UK</li>
+				</ul>
                 </div>
               </div>
-
 		<div style="clear: both;">&nbsp;</div>
 		</div>
 		<!-- end #content -->

@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Deviation  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100328
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="DIMACS, implementation challenge, graph partitioning, graph clustering" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>10th DIMACS Implementation Challenge
+</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="wrapper">
+		<div id="header">
+		<div id="logo">
+			<h3 align="center"><a href="http://www.cc.gatech.edu/dimacs10/index.shtml">&mdash; 10th DIMACS Implementation Challenge -
+			Graph Partitioning and Graph Clustering &mdash;</a></h3>
+			<p align="center">
+			Co-sponsored by <a href="http://dimacs.rutgers.edu/" title="DIMACS">DIMACS</a> and 
+			by the <a href="http://ccicada.rutgers.edu/">Command, Control, and Interoperability Center for Advanced Data Analysis (CCICADA)</a>,<br>
+			<a href="http://www.pnl.gov/">Pacific Northwest National Laboratory</a>, <a href="http://www.sandia.gov/">Sandia National Laboratories</a>,
+			<a href="http://www.intel.com">Intel Corporation</a> and <a href="http://www.dfg.de/en/">Deutsche Forschungsgemeinschaft (DFG)</a>
+			</p>
+		</div>
+	</div>
+	<!-- end #header -->
+
+		<div id="menu">
+		<ul>
+          <li> 
+            <a href="../index.shtml">Home</a> </li>
+		  <li>
+		    <a href="../participation.shtml">Participation</a> </li>
+          <li>
+            <a href="../schedule.shtml">Schedule</a> </li>
+          <li class="current_page_item">
+            <a href="../downloads.shtml">Downloads</a> </li>
+          <li>
+            <a href="../submission.shtml">Submission</a> </li>
+          <li>
+            <a href="../workshop.shtml">Workshop</a> </li>
+          <li>
+            <a href="../organization.shtml">Organization</a> </li>
+          <li>
+            <a href="../mailing.shtml">Contact</a> </li>
+          <li>
+            <a href="../links.shtml">Links</a> </li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+
+	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+              <div class="post">
+                <h2 class="title">Frames from 2D Dynamic Simulations</h2>
+                <div class="entry">
+				<p>
+				These fies have been created with the generator described in <i>Oliver Marquardt, 
+				Stefan Schamberger: Open Benchmarks for Load Balancing Heuristics in Parallel 
+				Adaptive Finite Element Computations. In Proc. International Conference on 
+				Parallel and Distributed Processing Techniques and Applications (PDPTA 2005), 
+				Volume 2, pp. 685-691. CSREA Press 2005, ISBN 1-932415-59-9685-691.</i>
+				</p>
+				<p>
+				The graphs are meshes taken from indivudual frames of a dynamic sequence that
+				resembles two-dimensional adaptive numerical simulations. Smaller versions of
+				these files (and their dynamic sequences as videos) can be found on 
+				<a  href="http://www.upb.de/cs/schaum/benchmark.html">
+				Stefan Schamberger's website</a> dedicated to these benchmarks.
+				The files presented here are the frames <i>0</i>, <i>10</i>, and <i>20</i> of
+				the sequences, respectively. The respective number of vertices (<i>n</i>) and edges
+				(<i>m</i>) are shown in the table below, too.
+				</p>
+				<h4>Graph Files</h4>		
+				<p>
+				  <table border="0"  width="95%" class="tabular" cellspacing="3" cellpadding="7">
+				  <colgroup>
+					<col width="225">
+					<col width="225">
+					<col width="50">
+					<col width="50">
+				  </colgroup>
+                  <tr><!-- Row 1 -->
+                     <td><b>Graph</b></td><!-- Col 1 -->
+                     <td><b>Coordinates</b></td><!-- Col 2 -->
+                     <td align="right"><b><i>n</i></b></td><!-- Col 3 -->
+                     <td align="right"><b><i>m</i></b></td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/dyn-frames/hugebubbles-00000.graph.bz2">hugebubbles-00000.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/dyn-frames/hugebubbles-00000.xyz.bz2">hugebubbles-00000.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">18,318,143</td><!-- Col 3 -->
+                     <td align="right">27,470,081</td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/dyn-frames/hugebubbles-00010.graph.bz2">hugebubbles-00010.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/dyn-frames/hugebubbles-00010.xyz.bz2">hugebubbles-00010.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">19,458,087</td><!-- Col 3 -->
+                     <td align="right">29,179,764</td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/dyn-frames/hugebubbles-00020.graph.bz2">hugebubbles-00020.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/dyn-frames/hugebubbles-00020.xyz.bz2">hugebubbles-00020.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">21,198,119</td><!-- Col 3 -->
+                     <td align="right">31,790,179</td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/dyn-frames/hugetrace-00000.graph.bz2">hugetrace-00000.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/dyn-frames/hugetrace-00000.xyz.bz2">hugetrace-00000.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">4,588,484</td><!-- Col 3 -->
+                     <td align="right">6,879,133</td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/dyn-frames/hugetrace-00010.graph.bz2">hugetrace-00010.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/dyn-frames/hugetrace-00010.xyz.bz2">hugetrace-00010.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">12,057,441</td><!-- Col 3 -->
+                     <td align="right">18,082,179</td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/dyn-frames/hugetrace-00020.graph.bz2">hugetrace-00020.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/dyn-frames/hugetrace-00020.xyz.bz2">hugetrace-00020.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">16,002,413</td><!-- Col 3 -->
+                     <td align="right">23,998,813</td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/dyn-frames/hugetric-00000.graph.bz2">hugetric-00000.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/dyn-frames/hugetric-00000.xyz.bz2">hugetric-00000.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">5,824,554</td><!-- Col 3 -->
+                     <td align="right">8,733,523</td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/dyn-frames/hugetric-00010.graph.bz2">hugetric-00010.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/dyn-frames/hugetric-00010.xyz.bz2">hugetric-00010.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">6,592,765</td><!-- Col 3 -->
+                     <td align="right">9,885,854</td><!-- Col 4 -->
+                  </tr>
+                 <tr><!-- Row -->
+                     <td><a href="data/dyn-frames/hugetric-00020.graph.bz2">hugetric-00020.graph.bz2</a></td><!-- Col 1 -->
+                     <td><a href="data/dyn-frames/hugetric-00020.xyz.bz2">hugetric-00020.xyz.bz2</a></td><!-- Col 2 -->
+                     <td align="right">7,122,792</td><!-- Col 3 -->
+                     <td align="right">10,680,777</td><!-- Col 4 -->
+                  </tr>
+                 </table>			
+				</p>
+                </div>
+              </div>
+		<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+				<div id="sidebar">
+        </div>
+        <!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+</div>
+		<div id="footer">
+		<p>Website created and <a href="../sidebar.html"></a>maintained by <a href="http://www.cc.gatech.edu/~hmeyerhe" target="_blank">Henning Meyerhenke</a>.
+		   Design based on the template <a target=_blank href="http://www.freecsstemplates.org/preview/deviation/"><i>Deviation</i></a> 
+		   by <a target=_blank href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+		</p>
+	</div>
+	<!-- end #footer -->
+
+</body>
+</html>
